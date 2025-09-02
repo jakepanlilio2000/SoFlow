@@ -196,5 +196,3 @@ Free to use, modify, and distribute with attribution.
 ---
 
 ✨ With **SOFLOW**, your irrigation system becomes **smarter, safer, and scalable**.
-
-```
