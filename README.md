@@ -12,7 +12,7 @@ All code, wiring, and firmware are modular and scalable.
 ## 📌 Table of Contents
 1. [System Architecture](#%EF%B8%8F-system-architecture)
 2. [Bill of Materials (BOM)](#-bill-of-materials-bom)
-3. [Wiring and Schematics](#%EF%B8%8F-wiring-and-schematics)
+3. [Wiring and Schematics](#-wiring-and-schematics)
 4. [Firmware Structure](#%EF%B8%8F-firmware-structure)
 5. [Cloud Integration & Mobile App](#%EF%B8%8F-cloud-integration--mobile-app)
 6. [Safety & Power Management](#%EF%B8%8F-safety--power-management)
