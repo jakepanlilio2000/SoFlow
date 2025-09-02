@@ -10,16 +10,16 @@ All code, wiring, and firmware are modular and scalable.
 ---
 
 ## Table of Contents
-1. [System Architecture](#-system-architecture)
-2. [Bill of Materials (BOM)](#-bill-of-materials-bom)
-3. [Wiring and Schematics](#-wiring-and-schematics)
-4. [Firmware Structure](#-firmware-structure)
-5. [Cloud Integration & Mobile App](#-cloud-integration--mobile-app)
-6. [Safety & Power Management](#-safety--power-management)
-7. [Commissioning Guide](#-commissioning-guide)
-8. [Troubleshooting](#-troubleshooting)
-9. [Future Improvements](#-future-improvements)
-10. [License](#-license)
+1. [System Architecture](#system-architecture)
+2. [Bill of Materials (BOM)](#bill-of-materials-bom)
+3. [Wiring and Schematics](#wiring-and-schematics)
+4. [Firmware Structure](#firmware-structure)
+5. [Cloud Integration & Mobile App](#cloud-integration--mobile-app)
+6. [Safety & Power Management](#safety--power-management)
+7. [Commissioning Guide](#commissioning-guide)
+8. [Troubleshooting](#troubleshooting)
+9. [Future Improvements](#future-improvements)
+10. [License](#license)
 
 ---
 
@@ -47,7 +47,7 @@ The system is designed with **distributed intelligence** for redundancy and reli
 
 ---
 
-##  Bill of Materials (BOM)
+## Bill of Materials (BOM)
 
 | Category            | Components                                                                 |
 |---------------------|-----------------------------------------------------------------------------|
@@ -64,7 +64,7 @@ The system is designed with **distributed intelligence** for redundancy and reli
 
 ---
 
-## 🔌 Wiring and Schematics
+## Wiring and Schematics
 
 ### 🔹 Field Node (ESP32)
 - Soil moisture → **Analog pin**  
@@ -87,7 +87,7 @@ The system is designed with **distributed intelligence** for redundancy and reli
 
 ---
 
-## ⚙️ Firmware Structure
+## Firmware Structure
 
 ### 🔹 Field Node (ESP32)
 - Reads soil moisture  
@@ -110,7 +110,7 @@ The system is designed with **distributed intelligence** for redundancy and reli
 
 ---
 
-## ☁️ Cloud Integration & Mobile App
+## Cloud Integration & Mobile App
 
 The system uses **Firebase Realtime Database** with a structured JSON schema:
 
@@ -132,7 +132,7 @@ The system uses **Firebase Realtime Database** with a structured JSON schema:
 }
 ````
 
-### 📱 Mobile App Features
+### Mobile App Features
 
 * Real-time soil and NPK readings
 * Pump & solenoid manual override
@@ -167,7 +167,7 @@ The system uses **Firebase Realtime Database** with a structured JSON schema:
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 | Problem                 | Likely Cause                     | Fix                                     |
 | ----------------------- | -------------------------------- | --------------------------------------- |
