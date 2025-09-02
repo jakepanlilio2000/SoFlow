@@ -1,5 +1,5 @@
 
-# SOFLOW Irrigation System 🌱💧  
+# SOFLOW Irrigation System
 
 The **SOFLOW Project** is a complete **smart irrigation system** designed for farms and gardens.  
 It provides **autonomous irrigation**, **real-time monitoring**, and **cloud integration** through Firebase.  
@@ -9,7 +9,7 @@ All code, wiring, and firmware are modular and scalable.
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 1. [System Architecture](#%EF%B8%8F-system-architecture)
 2. [Bill of Materials (BOM)](#-bill-of-materials-bom)
 3. [Wiring and Schematics](#-wiring-and-schematics)
@@ -23,7 +23,7 @@ All code, wiring, and firmware are modular and scalable.
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 The system is designed with **distributed intelligence** for redundancy and reliability:
 
@@ -42,12 +42,12 @@ The system is designed with **distributed intelligence** for redundancy and reli
     - Handles **water level safety cutoff**
     - Aggregates and syncs system data  
 
-📌 **Diagram (placeholder)**  
+ **Diagram (placeholder)**  
 ![System Architecture](docs/system_architecture.png)
 
 ---
 
-## 📦 Bill of Materials (BOM)
+##  Bill of Materials (BOM)
 
 | Category            | Components                                                                 |
 |---------------------|-----------------------------------------------------------------------------|
@@ -59,7 +59,7 @@ The system is designed with **distributed intelligence** for redundancy and reli
 | **Enclosures**     | IP65 weatherproof boxes, waterproof connectors, screw terminals             |
 | **Wiring**         | AWG 22 for signals, AWG 16–18 for pump/valve loads                          |
 
-📌 **Diagram (placeholder)**  
+ **Diagram (placeholder)**  
 ![Bill of Materials](docs/bom_layout.png)
 
 ---
@@ -71,7 +71,7 @@ The system is designed with **distributed intelligence** for redundancy and reli
 - LCD → **I2C (SDA/SCL)**  
 - Solenoid → **MOSFET + diode**  
 
-📌 **Node Wiring Preview**  
+ **Node Wiring Preview**  
 ![Node Wiring Diagram](docs/node_wiring.png)
 
 ---
@@ -82,7 +82,7 @@ The system is designed with **distributed intelligence** for redundancy and reli
 - Mega ↔ ESP32 Gateway via I2C  
 - Water level sensor → ESP32 GPIO  
 
-📌 **Main Controller Schematic**  
+ **Main Controller Schematic**  
 ![Main Controller Wiring](docs/main_controller.png)
 
 ---
@@ -105,7 +105,7 @@ The system is designed with **distributed intelligence** for redundancy and reli
 - Applies irrigation logic  
 - Distributes commands to nodes  
 
-📌 **Firmware Flowchart (placeholder)**  
+ **Firmware Flowchart (placeholder)**  
 ![Firmware Flow](docs/firmware_flow.png)
 
 ---
@@ -139,12 +139,12 @@ The system uses **Firebase Realtime Database** with a structured JSON schema:
 * Auto/manual irrigation toggle
 * Water level alerts
 
-📌 **Mobile App Preview (placeholder)**
+ **Mobile App Preview (placeholder)**
 ![Mobile App](docs/mobile_app.png)
 
 ---
 
-## 🔋 Safety & Power Management
+## Safety & Power Management
 
 * **Fuse every branch:** Pump (5–10A), solenoids (2A each), logic (1A)
 * **Flyback diodes** on all inductive loads
@@ -152,12 +152,12 @@ The system uses **Firebase Realtime Database** with a structured JSON schema:
 * **Reverse polarity diodes** on battery inputs
 * **Weatherproof enclosures** for all electronics
 
-📌 **Safety Diagram (placeholder)**
+ **Safety Diagram (placeholder)**
 ![Safety Wiring](docs/safety.png)
 
 ---
 
-## 🧑‍🔧 Commissioning Guide
+## Commissioning Guide
 
 1. Power and test **each node individually**
 2. Verify **LCD readings** and Firebase sync
@@ -179,7 +179,7 @@ The system uses **Firebase Realtime Database** with a structured JSON schema:
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Add **LoRa modules** for long-range communication
 * Integrate **AI irrigation predictions**
@@ -188,7 +188,7 @@ The system uses **Firebase Realtime Database** with a structured JSON schema:
 
 ---
 
-## 📜 License
+## License
 
 This project is released under the **MIT License**.
 Free to use, modify, and distribute with attribution.
