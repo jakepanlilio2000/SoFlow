@@ -1,3 +1,4 @@
+````markdown
 # SOFLOW Irrigation System 🌱💧  
 
 The **SOFLOW Project** is a complete **smart irrigation system** designed for farms and gardens.  
@@ -129,3 +130,71 @@ The system uses **Firebase Realtime Database** with a structured JSON schema:
     "MoistureThreshold": 40
   }
 }
+````
+
+### 📱 Mobile App Features
+
+* Real-time soil and NPK readings
+* Pump & solenoid manual override
+* Auto/manual irrigation toggle
+* Water level alerts
+
+📌 **Mobile App Preview (placeholder)**
+![Mobile App](docs/mobile_app.png)
+
+---
+
+## 🔋 Safety & Power Management
+
+* **Fuse every branch:** Pump (5–10A), solenoids (2A each), logic (1A)
+* **Flyback diodes** on all inductive loads
+* **TVS diodes** for surge protection
+* **Reverse polarity diodes** on battery inputs
+* **Weatherproof enclosures** for all electronics
+
+📌 **Safety Diagram (placeholder)**
+![Safety Wiring](docs/safety.png)
+
+---
+
+## 🧑‍🔧 Commissioning Guide
+
+1. Power and test **each node individually**
+2. Verify **LCD readings** and Firebase sync
+3. Connect **pump and valves** with fuses
+4. Simulate **low water level cutoff**
+5. Enable **automatic irrigation** and test
+
+---
+
+## 🛠️ Troubleshooting
+
+| Problem                 | Likely Cause                     | Fix                                     |
+| ----------------------- | -------------------------------- | --------------------------------------- |
+| No Wi-Fi connection     | Wrong SSID/password, weak signal | Check credentials, add external antenna |
+| LCD not showing         | Wrong I2C address, wiring issue  | Scan I2C bus, fix wiring                |
+| Pump/valves not working | MOSFET wired wrong, fuse blown   | Rewire MOSFET, check fuses              |
+| Wrong moisture readings | Calibration off                  | Recalibrate dry/wet values              |
+| Firebase not updating   | Wrong URL or rules               | Verify Firebase config & database rules |
+
+---
+
+## 🚀 Future Improvements
+
+* Add **LoRa modules** for long-range communication
+* Integrate **AI irrigation predictions**
+* Solar charging with **MPPT controller**
+* Expand to **multi-zone irrigation** with more nodes
+
+---
+
+## 📜 License
+
+This project is released under the **MIT License**.
+Free to use, modify, and distribute with attribution.
+
+---
+
+✨ With **SOFLOW**, your irrigation system becomes **smarter, safer, and scalable**.
+
+```
