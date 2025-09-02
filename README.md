@@ -19,7 +19,7 @@ All code, wiring, and firmware are modular and scalable.
 7. [Commissioning Guide](#commissioning-guide)
 8. [Troubleshooting](#%EF%B8%8F-troubleshooting)
 9. [Future Improvements](#future-improvements)
-10. [License](#%EF%B8%8F-license)
+10. [License](#license)
 
 ---
 
